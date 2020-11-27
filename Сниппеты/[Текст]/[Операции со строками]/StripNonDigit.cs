@@ -1,0 +1,1 @@
+public static string StripNonDigit(this string s) => Regex.Replace(s, "\\D", "");
